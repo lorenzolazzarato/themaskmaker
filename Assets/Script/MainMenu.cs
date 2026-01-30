@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] Button startButton, soundButton, exitButton;
-    
     [SerializeField] private string LevelToLoad;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
