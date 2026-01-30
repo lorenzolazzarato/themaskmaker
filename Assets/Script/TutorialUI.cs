@@ -11,7 +11,7 @@ public class TutorialUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        levelText.text = "The crooked cart squeals for each push you give it up the bright green hillside leading up to Aimendell. The crisp morning breeze is starting to feel unpleasant on your forehead and neck, beaded with sweat.\n\n“A strapping young lad like ye will have no trouble carrying this ol’ thing around I reckon”\nSihgur’s jolly voice plays on repeat in your mind as you curse at the skies when yet another stone lodges itself beneath one of the wheels, halting its stride once more. \n\nHe really didn’t need to build this wreck out of heftknot, sure it’s steady but way too heavy. \n\nSihgur was like that. You sigh and push forward.\n";
+        levelText.text = "The crooked cart squeals for each push you give it up the bright green hillside leading up to Aimendell. The crisp morning breeze is starting to feel unpleasant on your forehead and neck, beaded with sweat.\n “A strapping young lad like ye will have no trouble carrying this ol’ thing around I reckon”\n Sihgur’s jolly voice plays on repeat in your mind as you curse at the skies when yet another stone lodges itself beneath one of the wheels, halting its stride once more. \n He really didn’t need to build this wreck out of heftknot, sure it’s steady but way too heavy. \n Sihgur was like that. You sigh and push forward.";
         nextButton.onClick.AddListener(nextText);
         menuButton.onClick.AddListener(backToMenu);
     }
@@ -20,11 +20,11 @@ public class TutorialUI : MonoBehaviour
     {
         if (readText == 0)
         {
-            levelText.text = "23";
+            levelText.text = "Before the large stone brick walls cast their shade on you, you pick up the faint merry melodies of flutes and tambourines accompanied by the scent of caramel mixed with hardy roasted beef and frothy ale.\n Then, the imposing sturdy heftknot gate looks down upon you opening to an unpaved road. You swear you can see a mocking grin in its gnarls.\n You find a good spot in the shade of a beautiful fairlily tree and with an exasperated sign, you let go of the handles of your cart. You set your tools on your workbench, your materials and lastly a dusty cloth to showcase your creations on your stand. \n Many curious eyes eagerly follow your movements, drawn firstly to the novelty of your person in this town but then mostly to the arcane glimmers radiating from your works. \n At last, you put up a sign that reads “Magical hand carved masks, for every need, for everyone”.";
         }
         else if (readText == 1)
         {
-            levelText.text = "3";
+            levelText.text = "You are a mask maker, an arcane one at that. You expertly craft wooden masks with the purpose of helping folks with their problem, whichever it may be. After being worn for one day, the magical effect will take hold; if the client is satisfied, they will reward you with gold to match your services.";
         }
         else
         {
