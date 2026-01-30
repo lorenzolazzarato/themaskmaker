@@ -1,13 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class test2 : MonoBehaviour
 {
     [SerializeField] Button testButton;
-
-    [SerializeField] Panel PanelToShow;
+    [SerializeField] GameObject PanelToShow;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+    
        testButton.onClick.AddListener(ShowPanel);
     }
 
@@ -22,5 +24,4 @@ public class test2 : MonoBehaviour
         PanelToShow.SetActive(true);
     }
 
-  
 }
