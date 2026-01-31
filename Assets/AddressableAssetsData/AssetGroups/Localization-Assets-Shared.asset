@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Localization-Assets-Shared
-  m_GUID: f72f57cd63b5c274f898fefec54b9591
+  m_GUID: cb0aeff452a9f3c4dbf2a269d36d2456
   m_SerializeEntries:
-  - m_GUID: 1e7dd62f4e4c1b940a41f32f228541fb
-    m_Address: Assets/Localization/Tables/LocTab_Core Shared Data.asset
+  - m_GUID: b24256b285776ea40a6db976bfc0e9b6
+    m_Address: Assets/Localization/Tabella di prova Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: a2f63fec8a94e334898fe30e61d6d8cf, type: 2}
+  m_Settings: {fileID: 11400000, guid: 0741158f78a0e534e9db0c5ca5f57e8d, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b26bfa2b37cf4cd4c9f864ba53621da1, type: 2}
-    - {fileID: 11400000, guid: 6037f8b626580344a9bebc93f1689cd0, type: 2}
+    - {fileID: 11400000, guid: 377be091236a60c42acdab07510a4056, type: 2}
+    - {fileID: 11400000, guid: cb71c5d7d098c424182aaeca41a5a671, type: 2}

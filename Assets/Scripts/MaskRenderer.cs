@@ -1,67 +1,177 @@
+using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.Localization.Settings;
+using TMPro;
+using UnityEngine.Events;
 
-enum SelectionPhase
+public enum SelectionPhase
 {
-    WOOD, EYES, ACC, DONE
+    WOOD, FACE, RUNE, DONE
 }
 
 public class MaskRenderer : MonoBehaviour
 {
+    #region PUBLIC
     public SpriteRenderer woodRenderer;
-    public SpriteRenderer eyesRenderer;
-    public SpriteRenderer accRenderer;
+    public SpriteRenderer faceRenderer;
+    public SpriteRenderer runeRenderer;
     public MaskScript mask;
 
-    [SerializeField]
     public List<MaskWoodType> woodTypeList;
+    public List<MaskFaceType> faceTypeList;
+    public List<MaskRuneType> runeTypeList;
 
     public InputSystem_Actions input;
 
-    public int index = 0;
 
-    private SelectionPhase selectionPhase = SelectionPhase.WOOD;
+    public static Action<SelectionPhase, MaskScript> updateMaskText;
+    #endregion
 
-    public void Awake()
-    {
-        input = new InputSystem_Actions();
-        input.Enable();
-        input.Prova.Newaction.performed += ChangeWood;
-    }
+
+    #region PRIVATE
+    private SelectionPhase selectionPhase;
+
+    private int faceIndex = 0;
+    private int woodIndex = 0;
+    private int runeIndex = 0;
+
+    private List<MaskFaceType> compatibleFaces;
+
+    [SerializeField]
+    private TextMeshProUGUI text;
+    #endregion
+
+
 
     public void Start()
     {
-        // Initial rendering can be done here if needed
+        // setup a default mask to start with
         mask = new MaskScript(); // Placeholder for actual mask initialization
         mask.woodType = woodTypeList[0];
-        woodRenderer.sprite = mask.woodType.sprite;
+        mask.faceType = faceTypeList[0];
+        mask.runeType = runeTypeList[0];
+
+        selectionPhase = SelectionPhase.WOOD;
+        updateMaskText?.Invoke(selectionPhase, mask);
+
+        SetActiveRenderers();
+        SetRendererSprites();
     }
-    
 
-    public void ChangeWood(InputAction.CallbackContext ctx)
+    public void ChangeOptionOnClick(int value)
     {
-        mask.woodType = woodTypeList[index++ % woodTypeList.Count];
-        //Render(mask);
-    }
-
-    public void ChangeWoodClick(int value)
-    {
-        index += value;
-
         switch(selectionPhase)
         {
             case SelectionPhase.WOOD:
-                mask.woodType = woodTypeList[index % woodTypeList.Count];
-                break;
-            case SelectionPhase.EYES:
+                woodIndex += value;
+                if (woodIndex < 0)
+                    woodIndex = woodTypeList.Count - 1;
+                woodIndex = woodIndex % woodTypeList.Count;
+                mask.woodType = woodTypeList[woodIndex];
 
+                Debug.Log($"Wood id: {mask.woodType.id}, wood name: {mask.woodType.displayName}");
                 break;
-            case SelectionPhase.ACC:
+            case SelectionPhase.FACE:
+                faceIndex += value;
+                if (faceIndex < 0)
+                    faceIndex = compatibleFaces.Count - 1;
+                faceIndex = faceIndex % compatibleFaces.Count;
+                mask.faceType = compatibleFaces[faceIndex];
+
+                Debug.Log($"Face id: {mask.faceType.id}, face name: {mask.faceType.displayName}");
+                break;
+            case SelectionPhase.RUNE:
+                runeIndex += value;
+                if (runeIndex < 0)
+                    runeIndex = runeTypeList.Count - 1;
+                runeIndex = runeIndex % runeTypeList.Count;
+                mask.runeType = runeTypeList[runeIndex];
+                break;
+        }
+        SetRendererSprites();
+
+        updateMaskText?.Invoke(selectionPhase, mask);
+    }
+
+    private void SelectFaceFromWood(int woodId)
+    {
+        compatibleFaces = faceTypeList.GetRange(woodId * 3, 3); // hardcoded number of faces but good enough for demo
+    }
+
+    private void SetActiveRenderers()
+    {
+        switch(selectionPhase)
+        {
+            case SelectionPhase.WOOD:
+                woodRenderer.gameObject.SetActive(true);
+                faceRenderer.gameObject.SetActive(false);
+                runeRenderer.gameObject.SetActive(false);
+                break;
+            case SelectionPhase.FACE:
+                woodRenderer.gameObject.SetActive(true);
+                faceRenderer.gameObject.SetActive(true);
+                runeRenderer.gameObject.SetActive(false);
+                break;
+            case SelectionPhase.RUNE:
+                woodRenderer.gameObject.SetActive(true);
+                faceRenderer.gameObject.SetActive(true);
+                runeRenderer.gameObject.SetActive(true);
+                break;
+        }
+    }
+
+    private void SetRendererSprites()
+    {
+        woodRenderer.sprite = mask.woodType.sprite;
+        faceRenderer.sprite = mask.faceType.sprite;
+        runeRenderer.sprite = mask.runeType.sprite;
+    }
+
+    public void ConfirmButtonPressed()
+    {
+        switch(selectionPhase)
+        {
+            case SelectionPhase.WOOD:
+                int woodId = woodTypeList[woodIndex].id;
+                SelectFaceFromWood(woodIndex);
+                faceIndex = 0;
+                mask.faceType = compatibleFaces[faceIndex];
+                selectionPhase = SelectionPhase.FACE;
+                break;
+            case SelectionPhase.FACE:
+                runeIndex = 0;
+                mask.runeType = runeTypeList[runeIndex];
+                selectionPhase = SelectionPhase.RUNE;
+                break;
+            case SelectionPhase.RUNE:
+                selectionPhase = SelectionPhase.DONE;
+                Debug.Log("Mask creation done!");
                 break;
         }
 
-        woodRenderer.sprite = mask.woodType.sprite;
+        updateMaskText?.Invoke(selectionPhase, mask);
+        SetActiveRenderers();
+        SetRendererSprites();
     }
+
+
+    public void BackButtonPressed()
+    {
+        switch(selectionPhase)
+        {
+        case SelectionPhase.FACE:
+            selectionPhase = SelectionPhase.WOOD;
+            break;
+        case SelectionPhase.RUNE:
+            selectionPhase = SelectionPhase.FACE;
+            break;
+        }
+        updateMaskText?.Invoke(selectionPhase, mask);
+        SetActiveRenderers();
+    }
+
 }

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-English (en)
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Localization-String-Tables-English (en)
-  m_GUID: c27e5b4f94cd96b4aabc69ee643a8ab3
+  m_GUID: 30e29d883a5740747a27b382c3dc7abf
   m_SerializeEntries:
-  - m_GUID: 0d66aad3485d4814ca6306efbb0890f4
-    m_Address: LocTab_Core_en
+  - m_GUID: 0e1529dddcfd68046b87a9994db2a905
+    m_Address: Tabella di prova_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: a2f63fec8a94e334898fe30e61d6d8cf, type: 2}
+  m_Settings: {fileID: 11400000, guid: 0741158f78a0e534e9db0c5ca5f57e8d, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 830726f02cf0e8f4d8886d55bd135251, type: 2}
-    - {fileID: 11400000, guid: a7466283ed50ae74eaef69cdf36570e5, type: 2}
+    - {fileID: 11400000, guid: bc7174f072f43e3418eac49a7d2c94a0, type: 2}
+    - {fileID: 11400000, guid: 5040d08f6c26a8a409b02e9635676e8b, type: 2}

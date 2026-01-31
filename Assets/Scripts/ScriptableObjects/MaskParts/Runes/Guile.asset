@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 662305e5d1dc6ba4eaf3a7d6877af42b, type: 3}
-  m_Name: Mask Face 2
-  m_EditorClassIdentifier: Assembly-CSharp::MaskFaceType
-  id: 
-  displayName: 
+  m_Script: {fileID: 11500000, guid: df678884fa4230b4c91356ae1547a756, type: 3}
+  m_Name: Guile
+  m_EditorClassIdentifier: Assembly-CSharp::MaskRuneType
+  id: 0
+  displayName: Drapes of Guile
   sprite: {fileID: 0}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9253f011162bd940829e9253963c256, type: 3}
-  m_Name: Salice
+  m_Name: Heftknot
   m_EditorClassIdentifier: Assembly-CSharp::MaskWoodType
-  id: 2
-  displayName: Salice
-  sprite: {fileID: 7482667652216324306, guid: 66cdbe9175f5a464cb9db7b0aaeefbd0, type: 3}
+  id: 0
+  displayName: Heftknot
+  sprite: {fileID: 21300000, guid: b27b851d57bfb724f90dea72c4de81da, type: 3}
