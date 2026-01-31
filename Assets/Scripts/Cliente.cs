@@ -1,23 +1,22 @@
 using System;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Cliente : MonoBehaviour
 {
-    public DataCliente cliente;
+    public List<DataCliente> cliente;
+    public int indexCliente = 0;
+    private int maxIndexCliente;
     
-    private String richiesta; 
-    private String shortRequest;
-    private String rispostaPositiva;
-    private String rispostaNeutra;
-    private String rispostaNegativa;
+    [SerializeField] TMP_Text levelText;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        richiesta = cliente.richiesta;
-        shortRequest = cliente.shortRequest;
-        rispostaPositiva = cliente.rispostaPositiva;
-        rispostaNeutra = cliente.rispostaNeutra;
-        rispostaNegativa = cliente.rispostaNegativa;
+        maxIndexCliente = cliente.Count;
+        levelText.text = cliente[indexCliente].richiesta;
     }
 
     // Update is called once per frame
