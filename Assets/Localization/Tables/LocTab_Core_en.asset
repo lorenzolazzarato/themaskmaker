@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocTab_Core_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1e7dd62f4e4c1b940a41f32f228541fb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 594917404672
+    m_Localized: prova en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290268491776
+    m_Localized: Catherine wishes for a mask to rekindle the fires of her relationship
+      with her husband.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290327212032
+    m_Localized: "Oh my! Such a curious craft you bring to our modest town.. maybe
+      I should try out what you offer. Oh, but I shouldn\u2019t.. No I can\u2019t
+      keep going like this, see, my husband.. he is a little aloof one might say.
+      I feel like our relationship has somehow faded over the years, no matter what
+      I try! I think I... I would need something to rekindle what is seemingly lost..
+      Something to make his eyes twinkle like they used to when he looks at me. Something
+      to remind him how precious I am to him. I wish for him to rejoice in my presence
+      like the day we first met, and.. and the day we came home after our wedding...
+      I miss being cherished like that... That is what I wish for\u2026 if something
+      like that is possible that is\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290327212033
+    m_Localized: "Mask maker! I was unsure it would work but... oh my it did! Wonderfully!
+      I\u2019m ever so blessed and thankful, here\u2019s what I owe you for your
+      expert services."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290327212034
+    m_Localized: "Uhm\u2026 mask maker? I think your creation is working but I still
+      don\u2019t feel like it hits the right spot\u2026 could you fix it please?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290327212035
+    m_Localized: "Mask maker\u2026 Your work didn\u2019t give me what I hoped for
+      and I\u2019m unsatisfied but alas I wish you to try again\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406336
+    m_Localized: Alphonse needs an edge over his opponent in the upcoming duel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406337
+    m_Localized: "Hey. You\u2019re the one who makes those magical masks, right?
+      I could use your services. Ranulf, that tall fellow guard over there, accused
+      me of fooling around with his woman. I didn\u2019t do anything of the sort
+      of course but he has challenged me to a duel and I\u2019m troubled; I can\u2019t
+      possibly beat that lad, he might be dumb as a rock but have you seen the size
+      of his arms? I need something that gives me an edge over him, and I need it
+      fast. I\u2019m willing to pay you quite a lot if I can return to you with all
+      my teeth."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406338
+    m_Localized: "Oh my good lad, you\u2019ve done it! I bested that thug fair and
+      square! And here\u2019s your just reward."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406339
+    m_Localized: "Mmm\u2026 I tried your mask mister, I feel the magic in there but
+      I\u2019m not sold yet. Do something about it please."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406340
+    m_Localized: "\u2026 Try again."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406341
+    m_Localized: Urian wants a mask to reassure the king he means well.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406342
+    m_Localized: "Oh.. Kind sir, you are just the one I need, yes yes\u2026 I\u2019ve
+      caught word of your arcane paraphernalia and I myself must simply indulge.
+      You see, my esteemed artisan, I find myself distraught once more and in very
+      much fear for my position as the king\u2019s advisor. Our ever so benevolent
+      sovereign has been disregarding my guidance and he even seems a little nervous
+      around me lately! Can you believe that? Preposterous. Irrational I tell you.
+      I want you to make me something to get back into his good grace so that I can
+      continue ensuring the well being of your citizens as I have gladly done so
+      far. I shall, of course, pay you handsomely for your services even though I\u2019m
+      sure you understand that it is for the good of all."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406343
+    m_Localized: "Marvelous! Simply marvelous my dear artisan, you\u2019ve done great
+      for our citizens. Here, I am a man of my word."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406344
+    m_Localized: "No no, it doesn\u2019t feel right. You\u2019d better not be trying
+      to swindle me, my artisan. Again."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406345
+    m_Localized: "Listen my artisan, this \u201Cthing\u201D you gave me doesn\u2019t
+      work. Make sure you do it right next time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406346
+    m_Localized: Fairlily wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406347
+    m_Localized: "Fairlily thickets are always a sight for sore eyes. Their winding
+      trunks and gentle sways in the breeze makes one feel like they are standing
+      in a grand ballet hall, lulled by the world's symphony. \\n\u201CTruly suitably
+      named don\u2019t ye think? I me-self would rather work with something more
+      durable. Can get ye very neat details tho\u201D. \\nI remember when I first
+      worked with this wood I had to discard my first project right away; my hands
+      were too heavy and I ended up giving it back to the earth. My chisel wounded
+      too deep and I felt like a brute, unworthy and dull, completely out of tune
+      with my ideas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406348
+    m_Localized: Heftknot wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406349
+    m_Localized: "I have fond memories of this most humble wood, it gave my childhood
+      home a warm and welcoming aura. That\u2019s probably why I was so oblivious
+      when I heard people say \u201Cdull as the heftknot\u201D until I began my crafts.
+      \\nThe forests of heftwood trees stand proud and grand over the mountains of
+      the Trenchmaw range, though very common, that is the best place to really appreciate
+      the duality of their nature. From the hills, their canopies hug their sides
+      with a warm embrace, the jagged rocks jutting out like deadly islands in a
+      sea of emeralds. From below, the rays of the sun filter only in slivers, caressing
+      the thick bark unable to peel off their tenacious essence."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406350
+    m_Localized: Grimgnarl wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406351
+    m_Localized: "Once a fair dame asked old master Berach for a circlet made out
+      of this wood, it was to become a gift for her beloved sister on the day of
+      her wedding. Old master seemed dubious and skeptical at first but as we always
+      do, he accepted the request. \\nOne can tell much about a person's nature by
+      the furniture in their home and various doodads, though I have to admit that
+      grimgnarl is always an interesting choice. \\nIt is very knotted and difficult
+      to work with but at the same time, can be smoothly detailed as if cutting through
+      butter; quite the devious wood I have to admit. It is said to be often used
+      by the infamous witches of the Lowlands for their tools as well as decoration
+      in the folk\u2019s home to ward off bad luck."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406352
+    m_Localized: Mighty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406353
+    m_Localized: "Might can be mistaken for power and strength, but as the common
+      Hillian saying goes \u201Ctrue might lies in making the right choice\u201C.
+      \\nI find that a strong visage is the easiest to carve, sometimes too easy;
+      one can accidentally turn a jovial look into a vicious one with just one wrong
+      cut. Nevertheless, it exudes pride, potential and can often instill fear. \\nI
+      chuckle to myself sometimes picturing the face old master Berach used to make
+      for reference, his big red nose twisting the \u201Cscary\u201D expression into
+      a grumpy lovable fellow. But drawing inspiration from that when creating a
+      mask, courage and confidence flow like a river through the woods veins giving
+      the strength to take action."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406354
+    m_Localized: Affable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406355
+    m_Localized: "\u201CThe clever lass knows when to smile\u201D, Donndub\xE0n used
+      to stammer out every time he had one to many pints. I thought him to be hateful
+      at first, I then realised putting up a smile is mostly for ourselves and its
+      meanings can be many. Nevertheless it is invigorating and empowering to be
+      amiable in the face of adversity, to challenge hardships with positivity. \\nIt
+      is truly incredible how one small gesture can shape the world around us so
+      much. Wearing a smile will always make one look more gentle and in turn, soften
+      the heart of those who look."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406356
+    m_Localized: Cunning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406357
+    m_Localized: "The malicious and the smart walk hand in hand, the first might
+      take advantage of the second; the second, in turn, might find a way to dampen
+      the first. Many stories have been written about this, many characters on those
+      pages impersonate these two aspects to a point that we have been taught to
+      only see them as evil and good. \\nSporting a grin should feel like holding
+      the key to a lock that loosens chains, rather than wielding a blade. \\nWhen
+      I imprint a cunning expression onto one of my masks I am always a little taken
+      aback; the smirk, it\u2019s piercing, sharp, almost ready to eat me up. However,
+      through life I learned to find comfort in the slyness of this sneer, sometimes
+      a little subterfuge is the right answer to a conundrum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406360
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406361
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406362
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406364
+    m_Localized: Adornments of Prowess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406365
+    m_Localized: "I remember drawing inspiration for these ornaments from Berach\u2019s
+      beard, I thought it funny at the time but my mind was in the right place. \\nIt
+      may look gaudy at first but this finish attunes to a brave heart in a pinch,
+      reveling in the perhaps hidden grandeur of a person\u2019s soul. \\nRunes recognize
+      when one longs for more and they dance in sync, allowing the arcane to expedite
+      the growth of their inner courage. Plus, it is always amusing to see a reminder
+      of my mentor on people\u2019s faces."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406366
+    m_Localized: Talismans of Judgement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406367
+    m_Localized: "\u201CRemember my boy, you need to be mindful when adding the final
+      touches, if you add too many or put them in the wrong places, the runes won\u2019t
+      bind the arcane into your work\u201D, urged sage Ruahd\xE0in every time I grew
+      too eager to finish my work. \\nThe key was patience. I remember watching his
+      expert hands, enthralled by the wisdom they spoke; it was as if the talismans
+      were dancing in the melody of his ancient insight, almost begging to bind their
+      power to him. But he had no need for them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406368
+    m_Localized: Drapes of Guile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406369
+    m_Localized: "Sometimes the core of a person is concealed by drapes, flowing
+      like waves revealing only pieces of themselves. One may see it as a way to
+      conceal intent but most of the time the haze only serves as a way to avoid
+      one\u2019s fears. With that said, it is not uncommon for one\u2019s nature
+      to be shifty, though magic is all-seeing; it is an impartial force to be wielded,
+      judgement is only personal. \\n\u201CThe arcane is fickle, but you need not
+      to trick it, listen and follow. You don\u2019t want for it to think you are
+      its recipient, you are its shaper.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406371
+    m_Localized: "The crooked cart squeals with each push you give it going up the
+      bright green hillside leading up to Aimendell. The crisp morning breeze is
+      starting to feel unpleasant on your forehead and neck, beaded with sweat. \\n\u201CA
+      strapping young lad like ye will have no trouble carrying this ol\u2019 thing
+      around I reckon\u201D, Donndub\xE0n\u2019s jolly voice plays on repeat in your
+      mind as you curse at the skies when yet another stone lodges itself beneath
+      one of the wheels, halting its stride once more. \\nHe really didn\u2019t need
+      to build this wreck out of heftknot, sure it\u2019s steady but way too heavy.
+      \\nDonndub\xE0n was like that. You sigh and push forward. \\nBefore the large
+      stone brick walls cast their shade on you, you pick up the faint merry melodies
+      of flutes and tambourines accompanied by the scent of caramel mixed with hardy
+      roasted beef and frothy ale."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406372
+    m_Localized: "The imposing sturdy heftknot gate looks down upon you opening to
+      an unpaved road. You swear you can see a mocking grin in its gnarls. \\nYou
+      find a good spot in the shade of a beautiful fairlily tree and with an exasperated
+      sign, you let go of the handles of your cart. You set your tools on your workbench,
+      your materials and lastly a dusty cloth to showcase your creations on your
+      stand. \\nMany curious eyes eagerly follow your movements, drawn firstly to
+      the novelty of your person in this town but then mostly to the arcane glimmers
+      radiating from your works. \\nAt last, you put up a sign that reads \u201CMagical
+      hand carved masks, for every need, for everyone\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290331406373
+    m_Localized: You are a mask maker, an arcane one at that. You expertly craft
+      wooden masks with the purpose of helping folks with their problem, whichever
+      it may be. After being worn for one day, the magical effect will take hold;
+      if the client is satisfied, they will reward you with gold to match your services.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

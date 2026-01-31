@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167a01377efe36c498b078461c7127f6, type: 3}
   m_Name: Alphonse
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
+  userID: 1
+  woodID: 0
+  faceID: 0
+  runeID: 0
   richiesta: "Hey. You\u2019re the one who makes those magical masks, right? I could
     use your services. Ranulf, that tall fellow guard over there, accused me of fooling
     around with his woman. I didn\u2019t do anything of the sort of course but he

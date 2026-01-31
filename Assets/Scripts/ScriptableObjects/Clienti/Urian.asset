@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167a01377efe36c498b078461c7127f6, type: 3}
   m_Name: Urian
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
+  userID: 2
+  woodID: 0
+  faceID: 0
+  runeID: 0
   richiesta: "Oh.. Kind sir, you are just the one I need, yes yes\u2026 I\u2019ve
     caught word of your arcane paraphernalia and I myself must simply indulge. You
     see, my esteemed artisan, I find myself distraught once more and in very much
