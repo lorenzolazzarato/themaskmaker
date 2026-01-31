@@ -25,3 +25,4 @@ MonoBehaviour:
   rispostaNeutra: "Mmm\u2026 I tried your mask mister, I feel the magic in there
     but I\u2019m not sold yet. Do something about it please. "
   rispostaNegativa: "\u2026 Try again."
+  sprite: {fileID: -2413806693520163455, guid: 41ef33fee53c55a48aaec9ff0796867b, type: 3}

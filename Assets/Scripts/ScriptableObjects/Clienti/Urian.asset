@@ -29,3 +29,4 @@ MonoBehaviour:
     to swindle me, my artisan. Again. "
   rispostaNegativa: "Listen my artisan, this \u201Cthing\u201D you gave me doesn\u2019t
     work. Make sure you do it right next time."
+  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

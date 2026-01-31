@@ -711,12 +711,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 635291428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5dc87a56eb9fdc49987df6194be550c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c0781a97315fe443b6474c0ed11b89a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
-  nextButton: {fileID: 0}
-  menuButton: {fileID: 0}
-  Papiro: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialUI
+  nextButton: {fileID: 55918856}
+  menuButton: {fileID: 701939948}
+  levelText: {fileID: 541870206}
 --- !u!1 &701939946
 GameObject:
   m_ObjectHideFlags: 0

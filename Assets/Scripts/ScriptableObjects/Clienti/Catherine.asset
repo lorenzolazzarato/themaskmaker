@@ -31,3 +31,4 @@ MonoBehaviour:
     don\u2019t feel like it hits the right spot\u2026 could you fix it please?"
   rispostaNegativa: "Mask maker\u2026 Your work didn\u2019t give me what I hoped
     for and I\u2019m unsatisfied but alas I wish you to try again\u2026"
+  sprite: {fileID: 21300000, guid: 84f0b44ef9a164a449b6c718f2af3fd2, type: 3}
