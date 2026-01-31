@@ -118,76 +118,203 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 88221582569472
-    m_Localized: Fairlily wood
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221586763776
-    m_Localized: "\u201CTruly suitably named don\u2019t ye think? I me-self would
-      rather work with something more durable. Can get ye very neat details tho.\u201D
-      Fairlily thickets are always a sight for sore eyes. Their winding trunks and
-      gentle sways in the breeze makes one feel like they are standing in a grand
-      ballet hall, lulled by the world's symphony. I remember when I first worked
-      with this wood I had to discard my first project right away; my hands were
-      too heavy and I ended up giving it back to the earth. My chisel wounded too
-      deep and I felt like a brute, unworthy and dull, completely out of tune with
-      my ideas."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221603540992
-    m_Localized: Heftknot wood
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221611929600
-    m_Localized: "The forests of heftwood trees stand proud and grand over the mountains
-      of the Trenchmaw range, though very common, that is the best place to really
-      appreciate the duality of their nature. From the hills, their canopies hug
-      their sides with a warm embrace, the jagged rocks jutting out like deadly islands
-      in a sea of emeralds. From below, the rays of the sun filter only in slivers,
-      caressing the thick bark unable to peel off their tenacious essence. I have
-      fond memories of this most humble wood, it gave my childhood home a warm and
-      welcoming aura. That\u2019s probably why I was so oblivious when I heard people
-      say \u201Cdull as the heftknot\u201D until I began my crafts."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221624512512
     m_Localized: Grimgnarl wood
     m_Metadata:
       m_Items: []
-  - m_Id: 88221624512513
-    m_Localized: "One can tell much about a person's nature by the furniture in their
-      home and various doodads, though I have to admit that grimgnarl is always an
-      interesting choice. It is very knotted and difficult to work with but at the
-      same time, can be smoothly detailed as if cutting through butter; quite the
-      devious wood I have to admit. It is said to be often used by the infamous witches
-      of the Lowlands for their tools as well as decoration in the folk\u2019s home
-      to ward off bad luck. Once a fair dame asked old master Berach for a circlet
-      made out of this wood, it was to become a gift for her beloved sister on the
-      day of her wedding. Old master seemed dubious and skeptical and at first but
-      as we always do, he accepted the request."
+  - m_Id: 88221586763776
+    m_Localized: "Once a fair dame asked old master Berach for a circlet made out
+      of this wood, it was to become a gift for her beloved sister on the day of
+      her wedding. Old master seemed dubious and skeptical at first but as we always
+      do, he accepted the request. \\nOne can tell much about a person's nature by
+      the furniture in their home and various doodads, though I have to admit that
+      grimgnarl is always an interesting choice. \\nIt is very knotted and difficult
+      to work with but at the same time, can be smoothly detailed as if cutting through
+      butter; quite the devious wood I have to admit. It is said to be often used
+      by the infamous witches of the Lowlands for their tools as well as decoration
+      in the folk\u2019s home to ward off bad luck."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221603540992
+    m_Localized: Fairlily wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221611929600
+    m_Localized: "Fairlily thickets are always a sight for sore eyes. Their winding
+      trunks and gentle sways in the breeze makes one feel like they are standing
+      in a grand ballet hall, lulled by the world's symphony. \\n\u201CTruly suitably
+      named don\u2019t ye think? I me-self would rather work with something more
+      durable. Can get ye very neat details tho\u201D. \\nI remember when I first
+      worked with this wood I had to discard my first project right away; my hands
+      were too heavy and I ended up giving it back to the earth. My chisel wounded
+      too deep and I felt like a brute, unworthy and dull, completely out of tune
+      with my ideas."
     m_Metadata:
       m_Items: []
   - m_Id: 88221637095424
-    m_Localized: Mighty
+    m_Localized: Cunning
     m_Metadata:
       m_Items: []
   - m_Id: 88221662261248
-    m_Localized: Affable
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221679038464
-    m_Localized: Grinning
+    m_Localized: Mighty
     m_Metadata:
       m_Items: []
   - m_Id: 88708146999296
-    m_Localized: Next
+    m_Localized: Confirm
     m_Metadata:
       m_Items: []
   - m_Id: 88708146999297
-    m_Localized: Previous
+    m_Localized: Back
     m_Metadata:
       m_Items: []
   - m_Id: 88708163776512
     m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712838422528
+    m_Localized: Heftknot wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712851005440
+    m_Localized: "I have fond memories of this most humble wood, it gave my childhood
+      home a warm and welcoming aura. That\u2019s probably why I was so oblivious
+      when I heard people say \u201Cdull as the heftknot\u201D until I began my crafts.
+      \\nThe forests of heftwood trees stand proud and grand over the mountains of
+      the Trenchmaw range, though very common, that is the best place to really appreciate
+      the duality of their nature. From the hills, their canopies hug their sides
+      with a warm embrace, the jagged rocks jutting out like deadly islands in a
+      sea of emeralds. From below, the rays of the sun filter only in slivers, caressing
+      the thick bark unable to peel off their tenacious essence."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221653872640
+    m_Localized: "The malicious and the smart walk hand in hand, the first might
+      take advantage of the second; the second, in turn, might find a way to dampen
+      the first. Many stories have been written about this, many characters on those
+      pages impersonate these two aspects to a point that we have been taught to
+      only see them as evil and good. \\nSporting a grin should feel like holding
+      the key to a lock that loosens chains, rather than wielding a blade. \\nWhen
+      I imprint a cunning expression onto one of my masks I am always a little taken
+      aback; the smirk, it\u2019s piercing, sharp, almost ready to eat me up. However,
+      through life I learned to find comfort in the slyness of this sneer, sometimes
+      a little subterfuge is the right answer to a conundrum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221662261249
+    m_Localized: "Might can be mistaken for power and strength, but as the common
+      Hillian saying goes \u201Ctrue might lies in making the right choice\u201C.
+      \\nI find that a strong visage is the easiest to carve, sometimes too easy;
+      one can accidentally turn a jovial look into a vicious one with just one wrong
+      cut. Nevertheless, it exudes pride, potential and can often instill fear. \\nI
+      chuckle to myself sometimes picturing the face old master Berach used to make
+      for reference, his big red nose twisting the \u201Cscary\u201D expression into
+      a grumpy lovable fellow. But drawing inspiration from that when creating a
+      mask, courage and confidence flow like a river through the woods veins giving
+      the strength to take action."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712976834561
+    m_Localized: Adornments of Prowess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712989417473
+    m_Localized: Talismans of Judgement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927202000896
+    m_Localized: Affable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927273304064
+    m_Localized: "\u201CThe clever lass knows when to smile\u201D, Donndub\xE0n used
+      to stammer out every time he had one to many pints. I thought him to be hateful
+      at first, I then realised putting up a smile is mostly for ourselves and its
+      meanings can be many. Nevertheless it is invigorating and empowering to be
+      amiable in the face of adversity, to challenge hardships with positivity. \\nIt
+      is truly incredible how one small gesture can shape the world around us so
+      much. Wearing a smile will always make one look more gentle and in turn, soften
+      the heart of those who look."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927273304068
+    m_Localized: Drapes of Guile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927273304069
+    m_Localized: "Sometimes the core of a person is concealed by drapes, flowing
+      like waves revealing only pieces of themselves. One may see it as a way to
+      conceal intent but most of the time the haze only serves as a way to avoid
+      one\u2019s fears. With that said, it is not uncommon for one\u2019s nature
+      to be shifty, though magic is all-seeing; it is an impartial force to be wielded,
+      judgement is only personal. \\n\u201CThe arcane is fickle, but you need not
+      to trick it, listen and follow. You don\u2019t want for it to think you are
+      its recipient, you are its shaper.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712989417472
+    m_Localized: "I remember drawing inspiration for these ornaments from Berach\u2019s
+      beard, I thought it funny at the time but my mind was in the right place. \\nIt
+      may look gaudy at first but this finish attunes to a brave heart in a pinch,
+      reveling in the perhaps hidden grandeur of a person\u2019s soul. \\nRunes recognize
+      when one longs for more and they dance in sync, allowing the arcane to expedite
+      the growth of their inner courage. Plus, it is always amusing to see a reminder
+      of my mentor on people\u2019s faces."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113713002000384
+    m_Localized: "\u201CRemember my boy, you need to be mindful when adding the final
+      touches, if you add too many or put them in the wrong places, the runes won\u2019t
+      bind the arcane into your work\u201D, urged sage Ruahd\xE0in every time I grew
+      too eager to finish my work. \\nThe key was patience. I remember watching his
+      expert hands, enthralled by the wisdom they spoke; it was as if the talismans
+      were dancing in the melody of his ancient insight, almost begging to bind their
+      power to him. But he had no need for them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886976
+    m_Localized: "The crooked cart squeals with each push you give it going up the
+      bright green hillside leading up to Aimendell. The crisp morning breeze is
+      starting to feel unpleasant on your forehead and neck, beaded with sweat. \\n\u201CA
+      strapping young lad like ye will have no trouble carrying this ol\u2019 thing
+      around I reckon\u201D, Donndub\xE0n\u2019s jolly voice plays on repeat in your
+      mind as you curse at the skies when yet another stone lodges itself beneath
+      one of the wheels, halting its stride once more. \\nHe really didn\u2019t need
+      to build this wreck out of heftknot, sure it\u2019s steady but way too heavy.
+      \\nDonndub\xE0n was like that. You sigh and push forward. \\nBefore the large
+      stone brick walls cast their shade on you, you pick up the faint merry melodies
+      of flutes and tambourines accompanied by the scent of caramel mixed with hardy
+      roasted beef and frothy ale."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886977
+    m_Localized: "The imposing sturdy heftknot gate looks down upon you opening to
+      an unpaved road. You swear you can see a mocking grin in its gnarls. \\nYou
+      find a good spot in the shade of a beautiful fairlily tree and with an exasperated
+      sign, you let go of the handles of your cart. You set your tools on your workbench,
+      your materials and lastly a dusty cloth to showcase your creations on your
+      stand. \\nMany curious eyes eagerly follow your movements, drawn firstly to
+      the novelty of your person in this town but then mostly to the arcane glimmers
+      radiating from your works. \\nAt last, you put up a sign that reads \u201CMagical
+      hand carved masks, for every need, for everyone\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886978
+    m_Localized: You are a mask maker, an arcane one at that. You expertly craft
+      wooden masks with the purpose of helping folks with their problem, whichever
+      it may be. After being worn for one day, the magical effect will take hold;
+      if the client is satisfied, they will reward you with gold to match your services.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886980
+    m_Localized: The festivities die down within a few days of joyful ruckus, the
+      music subsides and the folks return to their normal life. \nAmong other craftsmen
+      and performers you slowly pack your tools and materials on your faithful cart.
+      You look at it and decide to wait for the morning to push it to the next fair,
+      your body needs rest. \nYou sigh, your work here is done. You helped those
+      who needed with your wares, as you always do; your pockets a little fuller,
+      your soul still, like the surface of a lake without ripples. \nThe tired sun
+      sets, hugged by a beautifully painted horizon. It is a breathtaking view only
+      for nature to witness. Your eyes close behind the high walls hiding raw beauty,
+      like a mask.
     m_Metadata:
       m_Items: []
   references:

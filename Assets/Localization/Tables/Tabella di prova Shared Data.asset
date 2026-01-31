@@ -79,14 +79,6 @@ MonoBehaviour:
     m_Key: urian_negative_result
     m_Metadata:
       m_Items: []
-  - m_Id: 88221582569472
-    m_Key: wood_1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 88221586763776
-    m_Key: wood_1_description
-    m_Metadata:
-      m_Items: []
   - m_Id: 88221603540992
     m_Key: wood_2
     m_Metadata:
@@ -95,20 +87,20 @@ MonoBehaviour:
     m_Key: wood_2_description
     m_Metadata:
       m_Items: []
-  - m_Id: 88221624512512
-    m_Key: wood_3
+  - m_Id: 113712838422528
+    m_Key: wood_0
     m_Metadata:
       m_Items: []
-  - m_Id: 88221624512513
-    m_Key: wood_3_description
+  - m_Id: 113712851005440
+    m_Key: wood_0_description
     m_Metadata:
       m_Items: []
-  - m_Id: 88221637095424
-    m_Key: expression_1
+  - m_Id: 88221582569472
+    m_Key: wood_1
     m_Metadata:
       m_Items: []
-  - m_Id: 88221653872640
-    m_Key: expression_1_description
+  - m_Id: 88221586763776
+    m_Key: wood_1_description
     m_Metadata:
       m_Items: []
   - m_Id: 88221662261248
@@ -119,19 +111,27 @@ MonoBehaviour:
     m_Key: expression_2_description
     m_Metadata:
       m_Items: []
-  - m_Id: 88221679038464
-    m_Key: expression_3
+  - m_Id: 135927202000896
+    m_Key: expression_0
     m_Metadata:
       m_Items: []
-  - m_Id: 88221695815680
-    m_Key: expression_3_description
+  - m_Id: 135927273304064
+    m_Key: expression_0_description
     m_Metadata:
       m_Items: []
-  - m_Id: 88708126027776
+  - m_Id: 88221637095424
+    m_Key: expression_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221653872640
+    m_Key: expression_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140274782646272
     m_Key: New Entry
     m_Metadata:
       m_Items: []
-  - m_Id: 88708134416384
+  - m_Id: 140274782646273
     m_Key: New Entry 1
     m_Metadata:
       m_Items: []
@@ -145,6 +145,58 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 88708163776512
     m_Key: ui_button_text_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140274782646274
+    m_Key: New Entry 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712976834561
+    m_Key: rune_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712989417472
+    m_Key: rune_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113712989417473
+    m_Key: rune_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113713002000384
+    m_Key: rune_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927273304068
+    m_Key: rune_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927273304069
+    m_Key: rune_0_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140274782646275
+    m_Key: New Entry 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886976
+    m_Key: intro_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886977
+    m_Key: intro_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886978
+    m_Key: intro_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140274782646276
+    m_Key: New Entry 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135927285886980
+    m_Key: endgame
     m_Metadata:
       m_Items: []
   m_Metadata:

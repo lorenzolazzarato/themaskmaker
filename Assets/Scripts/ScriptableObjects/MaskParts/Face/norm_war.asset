@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 662305e5d1dc6ba4eaf3a7d6877af42b, type: 3}
   m_Name: norm_war
   m_EditorClassIdentifier: Assembly-CSharp::MaskFaceType
-  id: 5
+  id: 2
   displayName: faccia 3
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: c59e7f42e2628a641947e1d01f95ad37, type: 3}

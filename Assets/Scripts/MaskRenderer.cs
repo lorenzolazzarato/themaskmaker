@@ -2,9 +2,13 @@ using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.Localization.Settings;
+using TMPro;
+using UnityEngine.Events;
 
-enum SelectionPhase
+public enum SelectionPhase
 {
     WOOD, FACE, RUNE, DONE
 }
@@ -22,33 +26,40 @@ public class MaskRenderer : MonoBehaviour
     public List<MaskRuneType> runeTypeList;
 
     public InputSystem_Actions input;
+
+
+    public static Action<SelectionPhase, MaskScript> updateMaskText;
     #endregion
 
 
     #region PRIVATE
-    private SelectionPhase selectionPhase = SelectionPhase.WOOD;
+    private SelectionPhase selectionPhase;
 
     private int faceIndex = 0;
     private int woodIndex = 0;
     private int runeIndex = 0;
 
-    private List<MaskFaceType> compatibleFaces; 
+    private List<MaskFaceType> compatibleFaces;
+
+    [SerializeField]
+    private TextMeshProUGUI text;
     #endregion
 
 
-    public void Awake()
-    {
-        input = new InputSystem_Actions();
-        input.Enable();
-    }
 
     public void Start()
     {
-        // Initial rendering can be done here if needed
+        // setup a default mask to start with
         mask = new MaskScript(); // Placeholder for actual mask initialization
         mask.woodType = woodTypeList[0];
         mask.faceType = faceTypeList[0];
-        woodRenderer.sprite = mask.woodType.sprite;
+        mask.runeType = runeTypeList[0];
+
+        selectionPhase = SelectionPhase.WOOD;
+        updateMaskText?.Invoke(selectionPhase, mask);
+
+        SetActiveRenderers();
+        SetRendererSprites();
     }
 
     public void ChangeOptionOnClick(int value)
@@ -75,12 +86,15 @@ public class MaskRenderer : MonoBehaviour
                 break;
             case SelectionPhase.RUNE:
                 runeIndex += value;
-                mask.runeType = runeTypeList[runeIndex % runeTypeList.Count];
+                if (runeIndex < 0)
+                    runeIndex = runeTypeList.Count - 1;
+                runeIndex = runeIndex % runeTypeList.Count;
+                mask.runeType = runeTypeList[runeIndex];
                 break;
         }
-        woodRenderer.sprite = mask.woodType.sprite;
-        faceRenderer.sprite = mask.faceType.sprite;
-        //runeRenderer.sprite = mask.runeType.sprite;
+        SetRendererSprites();
+
+        updateMaskText?.Invoke(selectionPhase, mask);
     }
 
     private void SelectFaceFromWood(int woodId)
@@ -88,7 +102,7 @@ public class MaskRenderer : MonoBehaviour
         compatibleFaces = faceTypeList.GetRange(woodId * 3, 3); // hardcoded number of faces but good enough for demo
     }
 
-    private void EnableRenderers()
+    private void SetActiveRenderers()
     {
         switch(selectionPhase)
         {
@@ -107,8 +121,14 @@ public class MaskRenderer : MonoBehaviour
                 faceRenderer.gameObject.SetActive(true);
                 runeRenderer.gameObject.SetActive(true);
                 break;
-
         }
+    }
+
+    private void SetRendererSprites()
+    {
+        woodRenderer.sprite = mask.woodType.sprite;
+        faceRenderer.sprite = mask.faceType.sprite;
+        runeRenderer.sprite = mask.runeType.sprite;
     }
 
     public void ConfirmButtonPressed()
@@ -121,7 +141,6 @@ public class MaskRenderer : MonoBehaviour
                 faceIndex = 0;
                 mask.faceType = compatibleFaces[faceIndex];
                 selectionPhase = SelectionPhase.FACE;
-                faceRenderer.sprite = compatibleFaces[faceIndex].sprite;
                 break;
             case SelectionPhase.FACE:
                 runeIndex = 0;
@@ -133,7 +152,10 @@ public class MaskRenderer : MonoBehaviour
                 Debug.Log("Mask creation done!");
                 break;
         }
-        EnableRenderers();
+
+        updateMaskText?.Invoke(selectionPhase, mask);
+        SetActiveRenderers();
+        SetRendererSprites();
     }
 
 
@@ -148,6 +170,8 @@ public class MaskRenderer : MonoBehaviour
             selectionPhase = SelectionPhase.FACE;
             break;
         }
-        EnableRenderers();
+        updateMaskText?.Invoke(selectionPhase, mask);
+        SetActiveRenderers();
     }
+
 }

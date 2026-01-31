@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9253f011162bd940829e9253963c256, type: 3}
   m_Name: Fairlily
   m_EditorClassIdentifier: Assembly-CSharp::MaskWoodType
-  id: 0
+  id: 2
   displayName: Fairlily
-  sprite: {fileID: -3231069221836443173, guid: bd7b3703bf3b4ad4f928a761847634c1, type: 3}
+  sprite: {fileID: 21300000, guid: bd7b3703bf3b4ad4f928a761847634c1, type: 3}

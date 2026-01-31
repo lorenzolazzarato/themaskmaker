@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskFaceType
   id: 2
   displayName: faccia 3
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 30a55f408057b784ebc8b21a0b1d36ce, type: 3}

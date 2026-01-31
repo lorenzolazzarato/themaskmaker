@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 662305e5d1dc6ba4eaf3a7d6877af42b, type: 3}
   m_Name: scuro_ammicc 1
   m_EditorClassIdentifier: Assembly-CSharp::MaskFaceType
-  id: 6
+  id: 1
   displayName: faccia 1
-  sprite: {fileID: -4764560317104557816, guid: d07994689e6b42042a756b042a309f77, type: 3}
+  sprite: {fileID: 21300000, guid: d07994689e6b42042a756b042a309f77, type: 3}
