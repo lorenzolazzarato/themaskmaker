@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationTable Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: LocalizationTable
+  m_TableCollectionNameGuidString: 2d1dc082539aa90eab9620ac83b27384
+  m_Entries:
+  - m_Id: 594917404672
+    m_Key: prova
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281036681216
+    m_Key: catherine_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041344
+    m_Key: catherine_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041345
+    m_Key: catherine_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041346
+    m_Key: catherine_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041347
+    m_Key: catherine_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041348
+    m_Key: alphonse_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041349
+    m_Key: alphonse_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041350
+    m_Key: alphonse_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041351
+    m_Key: alphonse_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041352
+    m_Key: alphonse_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041353
+    m_Key: urian_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041354
+    m_Key: urian_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041355
+    m_Key: urian_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041356
+    m_Key: urian_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041357
+    m_Key: urian_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281066041358
+    m_Key: wood_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235648
+    m_Key: wood_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235649
+    m_Key: wood_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235650
+    m_Key: wood_0_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235651
+    m_Key: wood_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235652
+    m_Key: wood_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235653
+    m_Key: expression_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235654
+    m_Key: expression_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235655
+    m_Key: expression_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235656
+    m_Key: expression_0_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235657
+    m_Key: expression_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235658
+    m_Key: expression_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235659
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235660
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235661
+    m_Key: ui_button_text_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235662
+    m_Key: ui_button_text_prev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235663
+    m_Key: ui_button_text_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235664
+    m_Key: New Entry 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235665
+    m_Key: rune_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235666
+    m_Key: rune_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235667
+    m_Key: rune_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235668
+    m_Key: rune_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235669
+    m_Key: rune_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235670
+    m_Key: rune_0_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235671
+    m_Key: New Entry 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235672
+    m_Key: intro_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235673
+    m_Key: intro_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235674
+    m_Key: intro_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235675
+    m_Key: New Entry 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281070235676
+    m_Key: endgame
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1272390761020391424
+  references:
+    version: 2
+    RefIds:
+    - rid: 1272390761020391424
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1769889543350
