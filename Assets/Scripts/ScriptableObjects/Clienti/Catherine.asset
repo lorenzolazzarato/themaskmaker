@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167a01377efe36c498b078461c7127f6, type: 3}
   m_Name: Catherine
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
+  userID: 0
+  displayName: catherine
+  woodID: 0
+  faceID: 0
+  runeID: 0
   richiesta: "Oh my! Such a curious craft you bring to our modest town.. maybe I
     should try out what you offer. Oh, but I shouldn\u2019t.. No I can\u2019t keep
     going like this, see, my husband.. he is a little aloof one might say. I feel
@@ -31,3 +36,4 @@ MonoBehaviour:
     don\u2019t feel like it hits the right spot\u2026 could you fix it please?"
   rispostaNegativa: "Mask maker\u2026 Your work didn\u2019t give me what I hoped
     for and I\u2019m unsatisfied but alas I wish you to try again\u2026"
+  sprite: {fileID: 21300000, guid: 84f0b44ef9a164a449b6c718f2af3fd2, type: 3}

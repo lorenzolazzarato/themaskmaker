@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] Button startButton, soundButton, exitButton;
-    [SerializeField] private string LevelToLoad;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,15 +13,9 @@ public class MainMenu : MonoBehaviour
         exitButton.onClick.AddListener(QuitGame);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void StartGame()
     {
-        SceneManager.LoadScene(LevelToLoad);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //aggiunere al prossimo livello
     }
 
     private void QuitGame()
