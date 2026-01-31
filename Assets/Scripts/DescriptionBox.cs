@@ -28,6 +28,9 @@ public class DescriptionBox : MonoBehaviour
 
         prevButton.gameObject.SetActive(activeStatus);
         nextButton.gameObject.SetActive(activeStatus);
+        
+        prevButton.interactable = activeStatus;
+        nextButton.interactable = activeStatus;
     }
 
     void SwitchTextSet(int setIndex)
@@ -63,6 +66,18 @@ public class DescriptionBox : MonoBehaviour
         {
             localizeEvent.StringReference = localizedStrings[index];
             localizeEvent.RefreshString();
+            
+            if(index + 1 == localizedStrings.Count)
+            	nextButton.interactable = false;
+            else 
+            	nextButton.interactable = true;
+            
+            if(index == 0)
+            	prevButton.interactable = false;
+            else 
+            	prevButton.interactable = true;
+            
+            
             return index;
         }
 
