@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9253f011162bd940829e9253963c256, type: 3}
-  m_Name: Salice
+  m_Name: Fairlily
   m_EditorClassIdentifier: Assembly-CSharp::MaskWoodType
-  id: 2
-  displayName: Salice
-  sprite: {fileID: 7482667652216324306, guid: 66cdbe9175f5a464cb9db7b0aaeefbd0, type: 3}
+  id: 0
+  displayName: Fairlily
+  sprite: {fileID: -3231069221836443173, guid: bd7b3703bf3b4ad4f928a761847634c1, type: 3}

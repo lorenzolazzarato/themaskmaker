@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Tabella di prova Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Tabella di prova
+  m_TableCollectionNameGuidString: b24256b285776ea40a6db976bfc0e9b6
+  m_Entries:
+  - m_Id: 594917404672
+    m_Key: prova
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221322522624
+    m_Key: catherine_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221418991616
+    m_Key: catherine_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221448351744
+    m_Key: catherine_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221460934656
+    m_Key: catherine_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221460934657
+    m_Key: catherine_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221486100480
+    m_Key: alphonse_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221486100481
+    m_Key: alphonse_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221498683392
+    m_Key: alphonse_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221498683393
+    m_Key: alphonse_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221528043520
+    m_Key: alphonse_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221528043521
+    m_Key: urian_request_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221540626432
+    m_Key: urian_request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221540626433
+    m_Key: urian_positive_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221557403648
+    m_Key: urian_neutral_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221569986560
+    m_Key: urian_negative_result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221582569472
+    m_Key: wood_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221586763776
+    m_Key: wood_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221603540992
+    m_Key: wood_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221611929600
+    m_Key: wood_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221624512512
+    m_Key: wood_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221624512513
+    m_Key: wood_3_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221637095424
+    m_Key: expression_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221653872640
+    m_Key: expression_1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221662261248
+    m_Key: expression_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221662261249
+    m_Key: expression_2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221679038464
+    m_Key: expression_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88221695815680
+    m_Key: expression_3_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88708126027776
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88708134416384
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88708146999296
+    m_Key: ui_button_text_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88708146999297
+    m_Key: ui_button_text_prev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88708163776512
+    m_Key: ui_button_text_confirm
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 772993668410769617
+  references:
+    version: 2
+    RefIds:
+    - rid: 772993668410769617
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1769848683129

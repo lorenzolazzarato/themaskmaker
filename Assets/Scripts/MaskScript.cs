@@ -4,5 +4,6 @@ using System.Collections.Generic;
 public class MaskScript
 {
     public MaskWoodType woodType;
-    public MaskFaceType eyesType;
+    public MaskFaceType faceType;
+    public MaskRuneType runeType;
 }

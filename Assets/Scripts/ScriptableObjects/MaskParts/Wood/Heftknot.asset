@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9253f011162bd940829e9253963c256, type: 3}
-  m_Name: Ebano
+  m_Name: Heftknot
   m_EditorClassIdentifier: Assembly-CSharp::MaskWoodType
   id: 1
-  displayName: Ebano
-  sprite: {fileID: -2413806693520163455, guid: 41ef33fee53c55a48aaec9ff0796867b, type: 3}
+  displayName: Heftknot
+  sprite: {fileID: -8593297234464437835, guid: b27b851d57bfb724f90dea72c4de81da, type: 3}

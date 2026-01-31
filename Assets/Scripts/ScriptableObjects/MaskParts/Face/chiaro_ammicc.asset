@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 662305e5d1dc6ba4eaf3a7d6877af42b, type: 3}
-  m_Name: Mask Face 2
+  m_Name: chiaro_ammicc
   m_EditorClassIdentifier: Assembly-CSharp::MaskFaceType
-  id: 
-  displayName: 
-  sprite: {fileID: 0}
+  id: 0
+  displayName: faccia 1
+  sprite: {fileID: 7974935126848904543, guid: 5a958d20d5ebf8649bdcc0e856e66048, type: 3}
