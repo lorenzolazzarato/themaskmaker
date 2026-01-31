@@ -29,6 +29,7 @@ public class MaskRenderer : MonoBehaviour
 
 
     public static Action<SelectionPhase, MaskScript> updateMaskText;
+    public static Action<SelectionPhase> toggleBackButtonVisibility;
     #endregion
 
 
@@ -153,6 +154,7 @@ public class MaskRenderer : MonoBehaviour
                 break;
         }
 
+        toggleBackButtonVisibility?.Invoke(selectionPhase);
         updateMaskText?.Invoke(selectionPhase, mask);
         SetActiveRenderers();
         SetRendererSprites();
@@ -170,6 +172,7 @@ public class MaskRenderer : MonoBehaviour
             selectionPhase = SelectionPhase.FACE;
             break;
         }
+        toggleBackButtonVisibility?.Invoke(selectionPhase);
         updateMaskText?.Invoke(selectionPhase, mask);
         SetActiveRenderers();
     }

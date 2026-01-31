@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskUI
   maskPartTitle: {fileID: 789571005}
   maskPartDesc: {fileID: 241650705}
+  backButton: {fileID: 753483002}
 --- !u!4 &30549293
 Transform:
   m_ObjectHideFlags: 0
@@ -1271,12 +1272,12 @@ GameObject:
   - component: {fileID: 753483002}
   - component: {fileID: 753483001}
   m_Layer: 5
-  m_Name: PreviousPhase
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &753483000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1702,7 +1703,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 0, y: 250}
+  m_SizeDelta: {x: 268.8, y: 250}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &999911372
 MonoBehaviour:
@@ -2190,7 +2191,7 @@ GameObject:
   - component: {fileID: 1496719791}
   - component: {fileID: 1496719790}
   m_Layer: 5
-  m_Name: NextPhase
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
