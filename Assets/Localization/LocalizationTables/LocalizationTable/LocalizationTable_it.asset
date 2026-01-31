@@ -10,24 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: testtable_en
+  m_Name: LocalizationTable_it
   m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
   m_LocaleId:
-    m_Code: en
-  m_SharedData: {fileID: 11400000, guid: f625c57087ce8d208b19aa2cbb074c4d, type: 2}
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 2d1dc082539aa90eab9620ac83b27384, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 2
-    m_Localized: pluto
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1
-    m_Localized: pippo
-    m_Metadata:
-      m_Items: []
-  - m_Id: 19435189923840
-    m_Localized: paperino
+  - m_Id: 594917404672
+    m_Localized: prova it
     m_Metadata:
       m_Items: []
   references:

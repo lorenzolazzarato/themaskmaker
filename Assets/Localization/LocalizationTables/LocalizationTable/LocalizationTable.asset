@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: testtable
+  m_Name: LocalizationTable
   m_EditorClassIdentifier: Unity.Localization.Editor::UnityEditor.Localization.StringTableCollection
-  m_SharedTableData: {fileID: 11400000, guid: f625c57087ce8d208b19aa2cbb074c4d, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 2d1dc082539aa90eab9620ac83b27384, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: e366e08d5bab333c8b73889800d8a8cf, type: 2}
+  - {fileID: 11400000, guid: d1f4f2e038c4bb32c90d8998f8c0dcf1, type: 2}
+  - {fileID: 11400000, guid: b1fad980b196285ab83ae1c19d3f7cb5, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

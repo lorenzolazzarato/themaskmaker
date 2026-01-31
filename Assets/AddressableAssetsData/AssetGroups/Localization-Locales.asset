@@ -15,8 +15,14 @@ MonoBehaviour:
   m_GroupName: Localization-Locales
   m_GUID: 7e28b51c2d37ed0d3988d5357d55a9bd
   m_SerializeEntries:
-  - m_GUID: 8bc759792e62d34769fa4eef73c4c7b0
+  - m_GUID: 2dfc52d7b9e6004f28b81a84f19b90a8
     m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9580849ada87ece0dbed949fcd79610b
+    m_Address: Italian (it)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
