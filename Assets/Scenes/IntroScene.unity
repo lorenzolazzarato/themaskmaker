@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 55918856}
   - component: {fileID: 55918855}
   m_Layer: 5
-  m_Name: Next
+  m_Name: next_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 237247700}
   - component: {fileID: 237247701}
   m_Layer: 5
-  m_Name: BackgroundImage
+  m_Name: background_image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -462,8 +462,9 @@ GameObject:
   - component: {fileID: 541870205}
   - component: {fileID: 541870207}
   - component: {fileID: 541870206}
+  - component: {fileID: 541870208}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: text_TMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,15 +509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO
-    TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO
-    BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO
-    TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO
-    BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO
-    TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO
-    BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO
-    TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO
-    BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO TESTO BELLO '
+  m_text: paperino {insertText}
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 68b2571b43403f6458d88d206c6ecc3c, type: 2}
   m_sharedMaterial: {fileID: 3650115577201897559, guid: 68b2571b43403f6458d88d206c6ecc3c, type: 2}
@@ -596,6 +589,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541870204}
   m_CullTransparentMesh: 1
+--- !u!114 &541870208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541870204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:f625c57087ce8d208b19aa2cbb074c4d
+    m_TableEntryReference:
+      m_KeyId: 310602330112
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 541870206}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &635291428
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +763,7 @@ GameObject:
   - component: {fileID: 701939949}
   - component: {fileID: 701939948}
   m_Layer: 5
-  m_Name: BackToMenu
+  m_Name: exit_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
