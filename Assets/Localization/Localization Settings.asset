@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Localization Settings
   m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Settings.LocalizationSettings
   m_StartupSelectors:
+  - rid: 772993668410769595
   - rid: 772993668410769593
   - rid: 772993668410769594
-  - rid: 772993668410769595
   m_AvailableLocales:
     rid: 772993668410769596
   m_AssetDatabase:

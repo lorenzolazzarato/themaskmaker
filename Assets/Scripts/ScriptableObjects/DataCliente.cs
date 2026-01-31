@@ -5,16 +5,9 @@ using UnityEngine;
 public class DataCliente : ScriptableObject
 {
     public int userID;
-    public String userName;
+    public string displayName;
     public int woodID;
     public int faceID;
     public int runeID;
-    
-    public String richiesta;
-    public String shortRequest;
-    public String rispostaPositiva;
-    public String rispostaNeutra;
-    public String rispostaNegativa;
-    
     public Sprite sprite;
 }

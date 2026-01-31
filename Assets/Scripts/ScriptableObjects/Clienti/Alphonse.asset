@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Alphonse
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
   userID: 1
+  displayName: alphonse
   woodID: 0
   faceID: 0
   runeID: 0

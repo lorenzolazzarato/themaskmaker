@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Urian
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
   userID: 2
+  displayName: urian
   woodID: 0
   faceID: 0
   runeID: 0

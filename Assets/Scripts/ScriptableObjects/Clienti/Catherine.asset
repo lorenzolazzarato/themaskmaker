@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167a01377efe36c498b078461c7127f6, type: 3}
   m_Name: Catherine
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
+  userID: 0
+  displayName: catherine
+  woodID: 0
+  faceID: 0
+  runeID: 0
   richiesta: "Oh my! Such a curious craft you bring to our modest town.. maybe I
     should try out what you offer. Oh, but I shouldn\u2019t.. No I can\u2019t keep
     going like this, see, my husband.. he is a little aloof one might say. I feel
