@@ -9,6 +9,8 @@ public class ShortReqPanelUI : MonoBehaviour
     [SerializeField] TMP_Text shortTextReq, descrText;
     [SerializeField] DataCliente client;
     [SerializeField] GameObject PanelToShow;
+
+    [SerializeField] GameObject MaskRenderer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,11 +26,13 @@ public class ShortReqPanelUI : MonoBehaviour
     {
         descrText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_request");
         PanelToShow.SetActive(true);
+        MaskRenderer.SetActive(false);
     }
     
     
     void ClosePanel()
     {
         PanelToShow.SetActive(false);
+        MaskRenderer.SetActive(true);
     }
 }

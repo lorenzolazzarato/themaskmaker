@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
   userID: 0
   displayName: catherine
-  woodID: 0
-  faceID: 0
-  runeID: 0
+  woodID: 2
+  faceID: 1
+  runeID: 1
   sprite: {fileID: 21300000, guid: 152918ada75ba254f8d7e8647e34a6de, type: 3}

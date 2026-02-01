@@ -14,24 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DataCliente
   userID: 2
   displayName: urian
-  woodID: 0
+  woodID: 1
   faceID: 0
   runeID: 0
-  richiesta: "Oh.. Kind sir, you are just the one I need, yes yes\u2026 I\u2019ve
-    caught word of your arcane paraphernalia and I myself must simply indulge. You
-    see, my esteemed artisan, I find myself distraught once more and in very much
-    fear for my position as the king\u2019s advisor. Our ever so benevolent sovereign
-    has been disregarding my guidance and he even seems a little nervous around me
-    lately! Can you believe that? Preposterous. Irrational I tell you. I want you
-    to make me something to get back into his good grace so that I can continue ensuring
-    the well being of your citizens as I have gladly done so far. I shall, of course,
-    pay you handsomely for your services even though I\u2019m sure you understand
-    that it is for the good of all."
-  shortRequest: Urian wants a mask to reassure the king he means well.
-  rispostaPositiva: "Marvelous! Simply marvelous my dear artisan, you\u2019ve done
-    great for our citizens. Here, I am a man of my word. "
-  rispostaNeutra: "No no, it doesn\u2019t feel right. You\u2019d better not be trying
-    to swindle me, my artisan. Again. "
-  rispostaNegativa: "Listen my artisan, this \u201Cthing\u201D you gave me doesn\u2019t
-    work. Make sure you do it right next time."
   sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
