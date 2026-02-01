@@ -15,6 +15,7 @@ public class ShortReqPanelUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        client = GameManager.clientId;
         shortTextReq.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_request_review");
         closeButton.onClick.AddListener(ClosePanel);
         moreButton.onClick.AddListener(infoMenu);

@@ -1463,6 +1463,7 @@ MonoBehaviour:
   descrText: {fileID: 138527257}
   client: {fileID: 11400000, guid: 317af78d5bc2e274dbddeb8e5b298bc9, type: 2}
   PanelToShow: {fileID: 312805568}
+  MaskRenderer: {fileID: 0}
 --- !u!1 &1079364313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,8 +1651,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292075759
+  m_fontColor: {r: 0.9372549, g: 0.8784314, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -34,8 +34,13 @@ public class TutorialUI2 : MonoBehaviour
         }
         else if (readText == 1 && levelText != null)
         {
-            levelText.fontStyle = FontStyles.Normal;
+            levelText.fontStyle = FontStyles.Italic;
             levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"intro_3");            
+        }
+        else if (readText == 2 && levelText != null)
+        {
+            levelText.fontStyle = FontStyles.Normal;
+            levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"intro_4");
         }
         else
         {

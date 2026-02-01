@@ -44,6 +44,8 @@ public class MaskRenderer : MonoBehaviour
 
     [SerializeField]
     private TextMeshProUGUI text;
+    [SerializeField]
+    private TextMeshProUGUI confirmButtonText;
     #endregion
 
 
@@ -147,6 +149,8 @@ public class MaskRenderer : MonoBehaviour
                 runeIndex = 0;
                 mask.runeType = runeTypeList[runeIndex];
                 selectionPhase = SelectionPhase.RUNE;
+
+
                 break;
             case SelectionPhase.RUNE:
                 selectionPhase = SelectionPhase.DONE;
@@ -158,6 +162,18 @@ public class MaskRenderer : MonoBehaviour
         updateMaskText?.Invoke(selectionPhase, mask);
         SetActiveRenderers();
         SetRendererSprites();
+    }
+
+    public void UpdateConfirmButtonText()
+    {
+       if(selectionPhase == SelectionPhase.RUNE)
+       {
+           confirmButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", "ui_button_text_confirm");
+       }
+       else
+       {
+           confirmButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", "ui_button_text_next");
+       }
     }
 
 

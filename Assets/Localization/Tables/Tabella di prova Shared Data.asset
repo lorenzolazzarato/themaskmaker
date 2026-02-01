@@ -127,11 +127,11 @@ MonoBehaviour:
     m_Key: expression_1_description
     m_Metadata:
       m_Items: []
-  - m_Id: 140274782646272
+  - m_Id: 429306670428160
     m_Key: New Entry
     m_Metadata:
       m_Items: []
-  - m_Id: 140274782646273
+  - m_Id: 429306712371200
     m_Key: New Entry 1
     m_Metadata:
       m_Items: []
@@ -147,7 +147,7 @@ MonoBehaviour:
     m_Key: ui_button_text_confirm
     m_Metadata:
       m_Items: []
-  - m_Id: 140274782646274
+  - m_Id: 429306712371201
     m_Key: New Entry 5
     m_Metadata:
       m_Items: []
@@ -175,7 +175,7 @@ MonoBehaviour:
     m_Key: rune_0_description
     m_Metadata:
       m_Items: []
-  - m_Id: 140274782646275
+  - m_Id: 429306712371202
     m_Key: New Entry 8
     m_Metadata:
       m_Items: []
@@ -191,7 +191,11 @@ MonoBehaviour:
     m_Key: intro_3
     m_Metadata:
       m_Items: []
-  - m_Id: 140274782646276
+  - m_Id: 429306712371203
+    m_Key: intro_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429306733342720
     m_Key: New Entry 9
     m_Metadata:
       m_Items: []
