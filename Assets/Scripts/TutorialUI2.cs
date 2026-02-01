@@ -20,7 +20,7 @@ public class TutorialUI2 : MonoBehaviour
 
     void Start()
     {
-        
+        AudioManager.instance.Play("intro");
         nextButton.onClick.AddListener(nextText);
         menuButton.onClick.AddListener(backToMenu);
     }
@@ -29,23 +29,26 @@ public class TutorialUI2 : MonoBehaviour
     {
         if (readText == 0 && levelText != null)
         {
+            AudioManager.instance.Play("pageturn");
             levelText.fontStyle = FontStyles.Italic;
             levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"intro_2");
         }
         else if (readText == 1 && levelText != null)
         {
+            AudioManager.instance.Play("pageturn");
             levelText.fontStyle = FontStyles.Italic;
             levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"intro_3");            
         }
         else if (readText == 2 && levelText != null)
         {
+            AudioManager.instance.Play("pageturn");
             levelText.fontStyle = FontStyles.Normal;
             levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"intro_4");
         }
         else
         {
-            
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //aggiunere al prossimo livello
+            AudioManager.instance.Stop("intro");
         }
         readText++;
     }

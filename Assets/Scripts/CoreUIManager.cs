@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -22,6 +21,18 @@ public class CoreUIManager : MonoBehaviour
     {
         GameManager.clientId = clientList[UnityEngine.Random.Range(0, clientList.Count)];
         client = GameManager.clientId;
+        if (client.userID == 0)
+        {
+            AudioManager.instance.Play("catherine");
+        }
+        else if (client.userID == 1)
+        {
+            AudioManager.instance.Play("alphonse");
+        }
+        else
+        {
+            AudioManager.instance.Play("urian");
+        }
         Debug.Log(client.displayName);
         levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_request");
         spriteClient.sprite = client.sprite;
@@ -35,12 +46,13 @@ public class CoreUIManager : MonoBehaviour
         //papiro.SetActive(false);
         //shortReqPanel.SetActive(true);
         //spriteClient.sprite = null;
-
+        AudioManager.instance.Play("clickbutton");
         SceneManager.LoadScene("GameplayScene");
     }
     
     void BackToMenu()
     {
+        AudioManager.instance.Play("clickbutton");
         SceneManager.LoadScene(0);
     }
 }

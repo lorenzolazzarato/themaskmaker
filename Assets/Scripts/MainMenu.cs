@@ -9,17 +9,22 @@ public class MainMenu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        AudioManager.instance.Play("title");
         startButton.onClick.AddListener(StartGame);
         exitButton.onClick.AddListener(QuitGame);
     }
 
     private void StartGame()
     {
-        SceneManager.LoadScene("IntroScene"); //aggiunere al prossimo livello
+        AudioManager.instance.Play("clickbutton");
+        SceneManager.LoadScene("IntroScene"); 
+        AudioManager.instance.Stop("title");
     }
 
     private void QuitGame()
     {
+        AudioManager.instance.Play("clickbutton");
         Application.Quit();
     }
+    
 }
