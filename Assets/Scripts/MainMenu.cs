@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //aggiunere al prossimo livello
+        SceneManager.LoadScene("IntroScene"); //aggiunere al prossimo livello
     }
 
     private void QuitGame()
