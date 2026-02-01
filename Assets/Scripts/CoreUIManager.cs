@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -17,6 +15,7 @@ public class CoreUIManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        AudioManager.instance.Play("catherine");
         Debug.Log(client.displayName);
         levelText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_request");
         spriteClient.sprite = client.sprite;
@@ -27,6 +26,7 @@ public class CoreUIManager : MonoBehaviour
 
     void Next()
     {
+        AudioManager.instance.Play("botClick");
         papiro.SetActive(false);
         shortReqPanel.SetActive(true);
         spriteClient.sprite = null;
@@ -34,6 +34,8 @@ public class CoreUIManager : MonoBehaviour
     
     void BackToMenu()
     {
+        AudioManager.instance.Play("botClick");
+        AudioManager.instance.Stop("catherine");
         SceneManager.LoadScene(0);
     }
 }

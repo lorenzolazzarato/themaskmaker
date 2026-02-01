@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskRuneType
   id: 2
   displayName: Talismans of Judgement
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: afb72e71d3746434495486cc86e2ec71, type: 3}

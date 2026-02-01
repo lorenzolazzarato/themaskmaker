@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MaskRuneType
   id: 1
   displayName: Adornments of Prowess
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: cb8837ccb55a157408648fd93792f049, type: 3}
