@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Localization.Settings;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public enum SelectionPhase
 {
@@ -155,6 +156,9 @@ public class MaskRenderer : MonoBehaviour
             case SelectionPhase.RUNE:
                 selectionPhase = SelectionPhase.DONE;
                 Debug.Log("Mask creation done!");
+
+                GameManager.mask = mask;
+                SceneManager.LoadScene("JudgeScene");
                 break;
         }
 
@@ -191,6 +195,12 @@ public class MaskRenderer : MonoBehaviour
         toggleBackButtonVisibility?.Invoke(selectionPhase);
         updateMaskText?.Invoke(selectionPhase, mask);
         SetActiveRenderers();
+    }
+
+    public void BackToMenu()
+    {
+               SceneManager.LoadScene(0);
+
     }
 
 }

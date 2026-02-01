@@ -17,4 +17,4 @@ MonoBehaviour:
   woodID: 1
   faceID: 0
   runeID: 0
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 1b4db67ee3cf17144b06c912e5e41f2e, type: 3}

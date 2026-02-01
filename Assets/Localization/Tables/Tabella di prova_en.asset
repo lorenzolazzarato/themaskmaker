@@ -321,6 +321,14 @@ MonoBehaviour:
       if the client is satisfied, they will reward you with gold to match your services.
     m_Metadata:
       m_Items: []
+  - m_Id: 456402746683392
+    m_Localized: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456402759266304
+    m_Localized: Next client
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
