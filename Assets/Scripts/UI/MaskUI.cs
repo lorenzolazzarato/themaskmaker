@@ -9,17 +9,21 @@ public class MaskUI : MonoBehaviour
     private TextMeshProUGUI maskPartTitle;
     [SerializeField]
     private TextMeshProUGUI maskPartDesc;
+    [SerializeField]
+    private Button backButton;
 
     
 
     public void OnEnable()
     {
         MaskRenderer.updateMaskText += SetMaskPartText;
+        MaskRenderer.toggleBackButtonVisibility += ToggleBackButtonVisibility;
     }
 
     public void OnDisable()
     {
         MaskRenderer.updateMaskText -= SetMaskPartText;
+        MaskRenderer.toggleBackButtonVisibility -= ToggleBackButtonVisibility;
     }
 
     private void SetMaskPartText(SelectionPhase selectionPhase, MaskScript mask)
@@ -40,5 +44,10 @@ public class MaskUI : MonoBehaviour
                 maskPartDesc.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"rune_{mask.runeType.id}_description");
                 break;
         }
+    }
+
+    private void ToggleBackButtonVisibility(SelectionPhase selectionPhase)
+    {
+        backButton.gameObject.SetActive(selectionPhase == SelectionPhase.FACE || selectionPhase == SelectionPhase.RUNE);
     }
 }
