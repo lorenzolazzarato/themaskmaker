@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public static DataCliente clientId;
+    public static MaskScript mask;
 
     private void Awake()
     {
