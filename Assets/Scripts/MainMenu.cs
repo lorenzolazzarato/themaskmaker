@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
         AudioManager.instance.Play("title");
         startButton.onClick.AddListener(StartGame);
         exitButton.onClick.AddListener(QuitGame);
+        soundButton.onClick.AddListener(muteSound);
     }
 
     private void StartGame()
@@ -26,5 +27,9 @@ public class MainMenu : MonoBehaviour
         AudioManager.instance.Play("clickbutton");
         Application.Quit();
     }
-    
+
+    private void muteSound()
+    {
+        AudioManager.instance.MuteSound();
+    }
 }

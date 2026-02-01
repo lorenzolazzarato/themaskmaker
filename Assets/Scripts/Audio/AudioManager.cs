@@ -48,4 +48,12 @@ public class AudioManager : MonoBehaviour
         }
         s.source.Stop();
     }
+
+    public void MuteSound()
+    {
+        foreach (SoundData s in sounds) 
+        {
+            s.source.mute = !s.source.mute;
+        }
+    }
 }

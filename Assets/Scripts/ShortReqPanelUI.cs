@@ -25,6 +25,7 @@ public class ShortReqPanelUI : MonoBehaviour
 
     private void infoMenu()
     {
+        AudioManager.instance.Play("clickbutton");
         descrText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_request");
         PanelToShow.SetActive(true);
         MaskRenderer.SetActive(false);
@@ -33,6 +34,7 @@ public class ShortReqPanelUI : MonoBehaviour
     
     void ClosePanel()
     {
+        AudioManager.instance.Play("clickbutton");
         PanelToShow.SetActive(false);
         MaskRenderer.SetActive(true);
     }

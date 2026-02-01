@@ -17,10 +17,24 @@ public class ResultScreen : MonoBehaviour
     private MaskRuneType playerRune;
 
     private bool maskCorrect = false;
+    private bool totalWinner = false;
  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (GameManager.clientId.userID == 0)
+        {
+            AudioManager.instance.Stop("catherine");
+        }
+        else if (GameManager.clientId.userID == 1)
+        {
+            AudioManager.instance.Stop("alphonse");
+        }
+        else
+        {
+            AudioManager.instance.Stop("urian");
+        }
+        AudioManager.instance.Play("endgame");
         client = GameManager.clientId;
         if(client.sprite != null)
             clientSprite.sprite = client.sprite;
@@ -33,6 +47,9 @@ public class ResultScreen : MonoBehaviour
         menuButton.onClick.AddListener(BackToMenu);
         if (client.woodID == playerWood.id && client.faceID == playerFace.id && client.runeID == playerRune.id)
         {
+            totalWinner = true;
+            AudioManager.instance.Stop("endgame");
+            AudioManager.instance.Play("success");
             maskCorrect = true;
             buttonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"ui_button_text_next_client");
             resultText.text= LocalizationSettings.StringDatabase.GetLocalizedString("Tabella di prova", $"{client.displayName}_positive_result");
@@ -53,12 +70,34 @@ public class ResultScreen : MonoBehaviour
 
     public void Restart()
     {
+        if (totalWinner)
+        {
+            AudioManager.instance.Stop("success");
+        }
+        else
+        {
+            AudioManager.instance.Stop("endgame");
+        }
         Debug.Log("dio");
         if (maskCorrect)
         {
+            
             SceneManager.LoadScene("ClienteTest");
+            
         } else
         {
+            if (GameManager.clientId.userID == 0)
+            {
+                AudioManager.instance.Play("catherine");
+            }
+            else if (GameManager.clientId.userID == 1)
+            {
+                AudioManager.instance.Play("alphonse");
+            }
+            else
+            {
+                AudioManager.instance.Play("urian");
+            }
             SceneManager.LoadScene("GameplayScene");
         }
              
@@ -66,6 +105,15 @@ public class ResultScreen : MonoBehaviour
 
     void BackToMenu()
     {
+        if (totalWinner)
+        {
+            AudioManager.instance.Stop("success");
+        }
+        else
+        {
+            AudioManager.instance.Stop("endgame");
+        }
+        AudioManager.instance.Play("clickbutton");
         SceneManager.LoadScene("MainMenu");
     }
 }

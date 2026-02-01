@@ -53,6 +53,18 @@ public class CoreUIManager : MonoBehaviour
     void BackToMenu()
     {
         AudioManager.instance.Play("clickbutton");
+        if (client.userID == 0)
+        {
+            AudioManager.instance.Stop("catherine");
+        }
+        else if (client.userID == 1)
+        {
+            AudioManager.instance.Stop("alphonse");
+        }
+        else
+        {
+            AudioManager.instance.Stop("urian");
+        }
         SceneManager.LoadScene(0);
     }
 }

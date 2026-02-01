@@ -137,6 +137,7 @@ public class MaskRenderer : MonoBehaviour
 
     public void ConfirmButtonPressed()
     {
+        AudioManager.instance.Play("clickbutton");
         switch(selectionPhase)
         {
             case SelectionPhase.WOOD:
@@ -183,6 +184,7 @@ public class MaskRenderer : MonoBehaviour
 
     public void BackButtonPressed()
     {
+        AudioManager.instance.Play("clickbutton");
         switch(selectionPhase)
         {
         case SelectionPhase.FACE:
@@ -199,8 +201,20 @@ public class MaskRenderer : MonoBehaviour
 
     public void BackToMenu()
     {
-               SceneManager.LoadScene(0);
-
+        AudioManager.instance.Play("clickbutton");
+        if (GameManager.clientId.userID == 0)
+        {
+            AudioManager.instance.Stop("catherine");
+        }
+        else if (GameManager.clientId.userID == 1)
+        {
+            AudioManager.instance.Stop("alphonse");
+        }
+        else
+        {
+            AudioManager.instance.Stop("urian");
+        }
+        SceneManager.LoadScene(0);
     }
 
 }

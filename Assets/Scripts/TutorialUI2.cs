@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -55,6 +54,8 @@ public class TutorialUI2 : MonoBehaviour
 
     void backToMenu()
     {
+        AudioManager.instance.Stop("intro");
+        AudioManager.instance.Play("clickbutton");
         SceneManager.LoadScene(0);
     }
 }
