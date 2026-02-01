@@ -1425,6 +1425,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806156299}
   m_CullTransparentMesh: 1
+--- !u!1 &1851367437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851367439}
+  - component: {fileID: 1851367438}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1851367438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851367437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70960d36dd0e6814c9b3be06b75272d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  sounds:
+  - name: alphonse
+    clip: {fileID: 8300000, guid: 5effe404b65996848bfce7699271b686, type: 3}
+    volume: 0.7
+    loop: 1
+    source: {fileID: 0}
+  - name: catherine
+    clip: {fileID: 8300000, guid: 4b48a405474ef8b46a02cfbf0532b673, type: 3}
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: clickbutton
+    clip: {fileID: 8300000, guid: f8e53be9b5710684a9590fbb21ede328, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: confirm
+    clip: {fileID: 8300000, guid: 6e465cb165f561a42af3ae43d859fcb3, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: endgame
+    clip: {fileID: 8300000, guid: 5ac682aefe4f2814d8fd7eeb1e4c1739, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: intro
+    clip: {fileID: 8300000, guid: 6bea2147c27f4084c882edc8b971fc2b, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: pageturn
+    clip: {fileID: 8300000, guid: cf80bc7449c2a1549918b7cbd2928fee, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: success
+    clip: {fileID: 8300000, guid: 3c336935409b36844a78264261942641, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: title
+    clip: {fileID: 8300000, guid: 8e4b4e99aef01524f8ef319f724867ed, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: urian
+    clip: {fileID: 8300000, guid: 092f3581e74190b43a8f450bfc1d35b3, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+--- !u!4 &1851367439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851367437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8436, y: 1.37426, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1433,3 +1528,4 @@ SceneRoots:
   - {fileID: 193333319}
   - {fileID: 147201071}
   - {fileID: 1315200956}
+  - {fileID: 1851367439}
